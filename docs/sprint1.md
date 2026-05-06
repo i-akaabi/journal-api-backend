@@ -2,7 +2,7 @@
 
 ## 📅 Ziel der Woche
 Aufbau der Projektstruktur und erste Backend-Grundlagen.
-# Montag & Dienstag 📅
+## Montag & Dienstag 📅
 
 ---
 
