@@ -59,6 +59,10 @@ Aufbau der Projektstruktur und erste Backend-Grundlagen.
 - Erste Route "/" erstellt
 - Lokalen Entwicklungsserver gestartet
 - API erfolgreich im Browser getestet
+- Route /entries erfolgreich erstellt
+- JSON-Daten über API zurückgegeben
+- Mehrere API-Endpunkte getestet
+- Flask-App Struktur erweitert
 
 ---
 
@@ -69,21 +73,34 @@ Aufbau der Projektstruktur und erste Backend-Grundlagen.
 - Unterschried zwischen lokalem Server und GitHub
 - Bedeutung von venv
 - Grundaufbau einer Flask-App
+- Wie JSON-Daten aufgebaut sind
+- Wie Flask mehrere Routes verarbeitet
+- Unterschied zwischen normaler Rückgabe und jsonify()
+- Aufbau eines API-Endpunkts
+- Bedeutung von API-Routen
 
 ## ⚠️ Probleme
 
 - pip wurde zuerst nicht erkannt
 - Verständnis vom Lokalen Server
 - Erste Orientirung in Flask
+- Fehler bei der Reihenfolge der Flask-Routen
+- Einrückungsfehler (Indentation)
+- Route /entries wurde zuerst nicht gefunden
+- Verständnis von jsonify()
 
 ## 💡 Lösungen
 
 - Flask mit python3 -m pip install flask installiert
 - Virteuelle Umgebung korrekt aktiviert
 - Flask-Server erfolgreich gestartet
+- Flask-Struktur korrekt angeordnet
+- app.run() ans Ende verschoben
+- Einrückungen korrigiert
+- jsonify() für JSON-Antworten verwendet
 
 ## 🔄 Nächste Schritte
 
-- Route /entries erstellen
-- JSON Daten zurückgeben
-- API Struktur erweitern
+- Datenbank vorbereiten
+- SQLite integrieren
+- Neue API-Routen planen
