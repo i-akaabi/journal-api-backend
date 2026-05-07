@@ -104,3 +104,14 @@ Aufbau der Projektstruktur und erste Backend-Grundlagen.
 - Datenbank vorbereiten
 - SQLite integrieren
 - Neue API-Routen planen
+
+---
+
+## 📅 Donnerstag
+
+### 🎯 Ziele für heute
+
+- Datenbank vorbereiten
+- SQLite kennenlernen
+- Verbindung zwischen Flask und Datenbank verstehen
+- API-Struktur weiter planen
