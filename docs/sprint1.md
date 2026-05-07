@@ -119,6 +119,7 @@ Aufbau der Projektstruktur und erste Backend-Grundlagen.
 - Datenbank wird beim Start automatisch initialisiert
 - Kleine Kommentare im Code hinzugefügt
 - Code-Struktur verbessert
+- Ersten Testeintrag in SQLite gespeichert
 
 ---
 
@@ -130,6 +131,8 @@ Aufbau der Projektstruktur und erste Backend-Grundlagen.
 - Nutzung von sqlite3.connect()
 - Warum commit() und close() wichtig sind
 - Wie Flask mit einer Datenbank verbunden wird
+- Nutzung von INSERT INTO
+- Wie Daten in SQLite gespeichert werden
 
 ---
 
@@ -145,12 +148,13 @@ Aufbau der Projektstruktur und erste Backend-Grundlagen.
 - init_db() vor app.run() eingebunden
 - Datenbankstruktur Schritt für Schritt aufgebaut
 - Code-Struktur sauber getrennt
+- Testdaten erfolgreich in SQLite gespeichert
 
 ---
 
 ## 🔄 Nächste Schritte
 
-- Erste Daten in SQLite speichern
-- Daten aus der Datenbank abrufen
+- Daten direkt aus SQLite abrufen
+- Feste Python-Testdaten ersetzen
 - API-Routen erweitern
 - POST Requests verstehen
