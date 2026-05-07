@@ -109,9 +109,48 @@ Aufbau der Projektstruktur und erste Backend-Grundlagen.
 
 ## 📅 Donnerstag
 
-### 🎯 Ziele für heute
+## ✅ Fortschritt
 
-- Datenbank vorbereiten
-- SQLite kennenlernen
-- Verbindung zwischen Flask und Datenbank verstehen
-- API-Struktur weiter planen
+- SQLite Datenbankdatei erstellt
+- sqlite3 in Flask integriert
+- Funktion init_db() erstellt
+- Tabelle "entries" vorbereitet
+- Verbindung zwischen Flask und SQLite aufgebaut
+- Datenbank wird beim Start automatisch initialisiert
+- Kleine Kommentare im Code hinzugefügt
+- Code-Struktur verbessert
+
+---
+
+## 🧠 Gelernt
+
+- Wie SQLite mit Python funktioniert
+- Wie Tabellen erstellt werden
+- Bedeutung von PRIMARY KEY und AUTOINCREMENT
+- Nutzung von sqlite3.connect()
+- Warum commit() und close() wichtig sind
+- Wie Flask mit einer Datenbank verbunden wird
+
+---
+
+## ⚠️ Probleme
+
+- Verständnis für Datenbankstruktur am Anfang ungewohnt
+- Reihenfolge von init_db() und app.run() verstehen
+
+---
+
+## 💡 Lösungen
+
+- init_db() vor app.run() eingebunden
+- Datenbankstruktur Schritt für Schritt aufgebaut
+- Code-Struktur sauber getrennt
+
+---
+
+## 🔄 Nächste Schritte
+
+- Erste Daten in SQLite speichern
+- Daten aus der Datenbank abrufen
+- API-Routen erweitern
+- POST Requests verstehen
