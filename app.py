@@ -1,6 +1,24 @@
 from flask import Flask, jsonify
+import sqlite3
 
 app = Flask(__name__)
+def init_db():
+
+    connection = sqlite3.connect("database.db")
+
+    cursor = connection.cursor()
+
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS entries (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            title TEXT NOT NULL,
+            content TEXT NOT NULL
+        )
+    """)
+
+    connection.commit()
+
+    connection.close()
 
 @app.route("/")
 def home():
@@ -26,4 +44,5 @@ def get_entries():
     
 
 if __name__ == "__main__":
+    init_db()
     app.run(debug=True)
