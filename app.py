@@ -19,6 +19,11 @@ def init_db():
         )
     """)
 
+    cursor.execute("""
+        INSERT INTO entries (title, content)
+        VALUES (?, ?)
+    """, ("Test Eintrag", "SQLite funktioniert"))
+
     connection.commit()
 
     connection.close()
