@@ -30,7 +30,7 @@ def get_entries():
         entries = [
             {
                 "id": 1,
-                "title": "Mein erster Eintrag",
+                "title": "Der erste Eintrag",
                 "content": "Heute habe ich Flask verstanden"
             },
             {
