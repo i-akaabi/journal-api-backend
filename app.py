@@ -39,18 +39,15 @@ def home():
 @app.route("/entries")
 def get_entries():
 
-    entries = [
-        {
-            "id": 1,
-            "title": "Mein erster Eintrag",
-            "content": "Heute habe ich Flask verstanden"
-        },
-        {
-            "id": 2,
-            "title": "Backend Lernen",
-            "content": "APIs sind interessant"
-        }
-    ]
+    connection = sqlite3.connect("database.db")
+
+    cursor = connection.cursor()
+
+    cursor.execute("SELECT * FROM entries")
+
+    entries = cursor.fetchall()
+
+    connection.close()
 
     return jsonify(entries)
 
