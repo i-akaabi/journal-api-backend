@@ -178,6 +178,10 @@ Aufbau der Projektstruktur und erste Backend-Grundlagen.
 - fetchall() genutzt
 - Dynamische API aufgebaut
 - Flask erfolgreich mit SQLite-Daten verbunden
+- POST Route für neue Journal Einträge erstellt
+- JSON Daten über request.get_json() empfangen
+- Neue Einträge erfolgreich in SQLite gespeichert
+- REST Client zum Testen von POST Requests verwendet
 
 ---
 
@@ -188,6 +192,11 @@ Aufbau der Projektstruktur und erste Backend-Grundlagen.
 - Nutzung von SELECT *
 - Nutzung von fetchall()
 - Wie Flask Daten aus der Datenbank an die API sendet
+- Unterschied zwischen GET und POST Requests
+- Nutzung von request.get_json()
+- Wie JSON Daten verarbeitet werden
+- Wie neue Daten in SQLite gespeichert werden
+- Nutzung des REST Client für API Tests
 
 ---
 
@@ -195,6 +204,8 @@ Aufbau der Projektstruktur und erste Backend-Grundlagen.
 
 - Verständnis für dynamische Datenabfragen
 - Unterschied zwischen Python-Testdaten und echten Datenbankdaten verstehen
+- Verständnis für POST Requests und JSON Daten
+- Verständnis für API Testanfragen mit REST Client
 
 ---
 
@@ -203,12 +214,16 @@ Aufbau der Projektstruktur und erste Backend-Grundlagen.
 - Datenbankabfrage Schritt für Schritt aufgebaut
 - Feste Python-Daten erfolgreich ersetzt
 - SQLite-Daten erfolgreich als JSON zurückgegeben
+- POST Route Schritt für Schritt aufgebaut
+- REST Client erfolgreich zum Testen verwendet
+- JSON Daten erfolgreich verarbeitet und gespeichert
 
 ---
 
 ## 🔄 Nächste Schritte
 
-- Neue Einträge über die API erstellen
-- POST Requests verstehen
-- Daten direkt in SQLite speichern
-- API weiter ausbauen
+- API Antworten verbessern
+- Neue Daten strukturierter zurückgeben
+- PUT Requests verstehen
+- DELETE Requests verstehen
+- CRUD weiter ausbauen
