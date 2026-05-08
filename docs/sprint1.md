@@ -158,3 +158,57 @@ Aufbau der Projektstruktur und erste Backend-Grundlagen.
 - Feste Python-Testdaten ersetzen
 - API-Routen erweitern
 - POST Requests verstehen
+
+## 📅 Freitag
+
+### 🎯 Ziele für heute
+
+- Daten direkt aus SQLite abrufen
+- Feste Python-Testdaten ersetzen
+- API dynamisch machen
+- Verstehen, wie Flask Daten aus der Datenbank verarbeitet
+
+---
+
+## ✅ Fortschritt
+
+- Daten direkt aus SQLite abgerufen
+- Feste Python-Testdaten ersetzt
+- SELECT * FROM entries verwendet
+- fetchall() genutzt
+- Dynamische API aufgebaut
+- Flask erfolgreich mit SQLite-Daten verbunden
+
+---
+
+## 🧠 Gelernt
+
+- Wie Daten aus SQLite gelesen werden
+- Unterschied zwischen statischen und dynamischen Daten
+- Nutzung von SELECT *
+- Nutzung von fetchall()
+- Wie Flask Daten aus der Datenbank an die API sendet
+
+---
+
+## ⚠️ Probleme
+
+- Verständnis für dynamische Datenabfragen
+- Unterschied zwischen Python-Testdaten und echten Datenbankdaten verstehen
+
+---
+
+## 💡 Lösungen
+
+- Datenbankabfrage Schritt für Schritt aufgebaut
+- Feste Python-Daten erfolgreich ersetzt
+- SQLite-Daten erfolgreich als JSON zurückgegeben
+
+---
+
+## 🔄 Nächste Schritte
+
+- Neue Einträge über die API erstellen
+- POST Requests verstehen
+- Daten direkt in SQLite speichern
+- API weiter ausbauen
