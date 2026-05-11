@@ -71,6 +71,8 @@
 - Projektstruktur überprüft
 - Bestehende API erneut analysiert
 - CRUD Planung vorbereitet
+- PUT Route vorbereitet
+- REST Client Test für PUT Requests ergänzt
 
 ---
 
