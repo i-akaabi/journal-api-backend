@@ -5,3 +5,6 @@ Content-Type: application/json
     "title": "Mein neuer Eintrag",
     "content": "Heute teste ich POST Requests"
 }
+
+PUT http://127.0.0.1:5000/entries/1
+Content-Type: application/json
