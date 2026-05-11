@@ -77,6 +77,13 @@ def create_entry():
     "message": "Neuer Eintrag erstellt"
 })
 
+@app.route("/entries/<int:id>", methods=["PUT"])
+def update_entry(id):
+
+    return jsonify({
+        "message": "Eintrag aktualisiert",
+        "id": id
+    })
 
 if __name__ == "__main__":
 
