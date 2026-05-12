@@ -104,3 +104,52 @@
 - PUT Route erstellen
 - DELETE Route vorbereiten
 - API Antworten verbessern
+
+# 📅 Dienstag
+
+## 🎯 Ziele für heute
+
+- PUT Route vollständig umsetzen
+- SQLite Daten bearbeiten
+- DELETE Route vorbereiten
+- Login-System anfangen
+- CRUD weiter ausbauen
+
+---
+
+## ✅ Fortschritt
+
+- Sprint 2 weiter vorbereitet
+- API Struktur erneut überprüft
+- PUT Requests weiter geplant
+
+---
+
+## 🧠 Gelernt
+
+- Verständnis für PUT Requests vertieft
+- Wiederholung der API Struktur
+- Verständnis für Datenfluss zwischen Flask und SQLite
+
+---
+
+## ⚠️ Probleme
+
+- Verständnis für Datenbankänderungen
+- PUT Requests vollständig mit SQLite verbinden
+
+---
+
+## 💡 Lösungen
+
+- API Struktur erneut analysiert
+- CRUD Schritt für Schritt weiter aufgebaut
+- Fokus auf Verständnis statt Geschwindigkeit
+
+---
+
+## 🔄 Nächste Schritte
+
+- PUT Route mit SQLite verbinden
+- DELETE Route erstellen
+- Login-System vorbereiten
