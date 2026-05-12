@@ -80,9 +80,31 @@ def create_entry():
 @app.route("/entries/<int:id>", methods=["PUT"])
 def update_entry(id):
 
+    data = request.get_json()
+
+    title = data["title"]
+
+    content = data["content"]
+
+    connection = sqlite3.connect("database.db")
+
+    cursor = connection.cursor()
+
+    cursor.execute("""
+        UPDATE entries
+        SET title = ?, content = ?
+        WHERE id = ?
+    """, (title, content, id))
+
+    connection.commit()
+
+    connection.close()
+
     return jsonify({
         "message": "Eintrag aktualisiert",
-        "id": id
+        "id": id,
+        "title": title,
+        "content": content
     })
 
 if __name__ == "__main__":
