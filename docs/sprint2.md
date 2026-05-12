@@ -122,6 +122,11 @@
 - Sprint 2 weiter vorbereitet
 - API Struktur erneut überprüft
 - PUT Requests weiter geplant
+- PUT Route erfolgreich mit SQLite verbunden
+- UPDATE Requests erfolgreich getestet
+- REST Client für PUT Requests verwendet
+- Datenbankeinträge erfolgreich bearbeitet
+- CRUD weiter vervollständigt
 
 ---
 
@@ -130,6 +135,9 @@
 - Verständnis für PUT Requests vertieft
 - Wiederholung der API Struktur
 - Verständnis für Datenfluss zwischen Flask und SQLite
+- Verständnis für UPDATE SQL Befehle
+- Verständnis für PUT Requests vertieft
+- Verständnis für REST Client Requests verbessert
 
 ---
 
@@ -137,6 +145,7 @@
 
 - Verständnis für Datenbankänderungen
 - PUT Requests vollständig mit SQLite verbinden
+- REST Client Requests wurden zuerst nicht korrekt erkannt
 
 ---
 
@@ -145,6 +154,8 @@
 - API Struktur erneut analysiert
 - CRUD Schritt für Schritt weiter aufgebaut
 - Fokus auf Verständnis statt Geschwindigkeit
+- HTTP Requests mit ### sauber getrennt
+- REST Client Struktur angepasst
 
 ---
 
