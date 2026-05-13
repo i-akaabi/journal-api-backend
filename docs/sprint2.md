@@ -164,3 +164,55 @@
 - PUT Route mit SQLite verbinden
 - DELETE Route erstellen
 - Login-System vorbereiten
+
+# 📅 Mittwoch
+
+## 🎯 Ziele für heute
+
+- DELETE Route umsetzen
+- CRUD weiter vervollständigen
+- SQLite Daten löschen
+- API weiter verbessern
+- Login-System vorbereiten
+
+---
+
+## ✅ Fortschritt
+
+- PUT Route erfolgreich mit SQLite verbunden
+- UPDATE Requests erfolgreich getestet
+- REST Client für PUT Requests verwendet
+- Datenbankeinträge erfolgreich bearbeitet
+- CRUD weiter ausgebaut
+
+---
+
+## 🧠 Gelernt
+
+- Verständnis für UPDATE SQL Befehle
+- Verständnis für PUT Requests vertieft
+- Verständnis für REST Client Requests verbessert
+- Verständnis für Datenfluss zwischen Flask und SQLite erweitert
+
+---
+
+## ⚠️ Probleme
+
+- REST Client Requests wurden zuerst nicht korrekt erkannt
+- Verständnis für UPDATE Requests und SQLite Verarbeitung
+
+---
+
+## 💡 Lösungen
+
+- HTTP Requests mit ### getrennt
+- REST Client Struktur angepasst
+- API Schritt für Schritt getestet
+
+---
+
+## 🔄 Nächste Schritte
+
+- DELETE Route erstellen
+- SQLite Daten löschen
+- Login-System vorbereiten
